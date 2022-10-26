@@ -1,0 +1,59 @@
+.disabled, button:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.Button_blueBg__Ws3yb {
+    width: 100%;
+    font-size: 20px;
+    padding: 1.2rem 2rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+.login-input {
+    position: relative;
+}
+.login-input > input {
+    padding-left: 55px;
+}
+.Input_input__3Vbnu {
+    display: block;
+    width: 100%;
+    border: 1px solid #ecf3f5;
+    border-radius: 0.8rem;
+    padding: 10px 20px;
+    background-color: #ecf3f5;
+}
+.login-input::before {
+    content: "+91";
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+}
+.Button_blueBg__Ws3yb{
+    background-color: green;
+    color: #fff;
+    font-weight: 700;
+}
+@media (min-width: 768px){
+.offset-md-4 {
+    margin-left: 33.333333%;
+}
+}
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+@media (min-width: 768px){
+.offset-md-1 {
+    margin-left: 8.333333%;
+}
+}
+@media (min-width: 768px){
+.col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+}
